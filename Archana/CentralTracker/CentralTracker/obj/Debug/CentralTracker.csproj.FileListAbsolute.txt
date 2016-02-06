@@ -1,0 +1,4 @@
+C:\Users\p\Documents\GitHub\CentralTracker\Archana\CentralTracker\CentralTracker\bin\CentralTracker.dll
+C:\Users\p\Documents\GitHub\CentralTracker\Archana\CentralTracker\CentralTracker\bin\CentralTracker.pdb
+C:\Users\p\Documents\GitHub\CentralTracker\Archana\CentralTracker\CentralTracker\obj\Debug\CentralTracker.dll
+C:\Users\p\Documents\GitHub\CentralTracker\Archana\CentralTracker\CentralTracker\obj\Debug\CentralTracker.pdb

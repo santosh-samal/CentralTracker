@@ -57,9 +57,24 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\CTimg.png" />
+    <Content Include="Login.aspx" />
+    <None Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.20.js" />
+    <Content Include="Scripts\jquery-ui-1.8.20.min.js" />
+    <Content Include="Scripts\modernizr-2.5.3.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -70,6 +85,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
