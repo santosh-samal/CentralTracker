@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AccordianDemo.aspx.cs" Inherits="Personal_Project.AccordianDemo" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="suudent.aspx.cs" Inherits="Personal_Project.suudent" %>
 
 <!DOCTYPE html>
 
@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-          <input type="button" value="Login" />
+    
     </div>
     </form>
 </body>

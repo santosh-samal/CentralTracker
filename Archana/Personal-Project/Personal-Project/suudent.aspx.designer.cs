@@ -11,7 +11,7 @@ namespace Personal_Project
 {
 
 
-    public partial class AccordianDemo
+    public partial class suudent
     {
 
         /// <summary>
