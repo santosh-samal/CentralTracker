@@ -85,6 +85,7 @@
                             
                             </table>
                               <asp:Button ID="Btnsign" runat="server" Text="Sign in" Height="30px" style="margin-top: 69px; margin-left: 157px;" Width="119px" BackColor="Green" />
+                              <asp:Button ID="Btnfrpwd" runat="server" Text="Forgot password?" Height="30px" style="margin-top: 69px; margin-left: 157px;" Width="119px" BackColor="Green" />
                 
                 </center>
                  </div>
