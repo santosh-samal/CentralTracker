@@ -76,7 +76,7 @@
                             </tr>
                             
                             <tr>
-                               <td class="auto-style1">Password</td> 
+                               <td class="auto-style1">Password(forgot password)</td> 
                                 <td>
                 <asp:TextBox ID="txtpwd" runat="server"  placeholder="Password" Height="16px" style="margin-top: 4px; margin-left: 0px;" Width="172px"></asp:TextBox>
 
