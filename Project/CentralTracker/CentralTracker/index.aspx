@@ -1,5 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="CentralTracker.index" %>
-
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="CentralTracker.Index" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -55,7 +54,7 @@
 </head>
 <body bgcolor="cyan">
 
-    <form id="form1" runat="server">
+    <form id="form2" runat="server">
 
 
         <div>
@@ -178,3 +177,4 @@
     </center>
 </body>
 </html>
+
