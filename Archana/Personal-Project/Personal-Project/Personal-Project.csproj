@@ -57,18 +57,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AccordianDemo.aspx" />
+    <None Include="script\jquery-1.7.1.intellisense.js" />
+    <Content Include="script\jquery-1.7.1.js" />
+    <Content Include="script\jquery-1.7.1.min.js" />
+    <Content Include="script\jquery-ui-1.8.20.js" />
+    <Content Include="script\jquery-ui-1.8.20.min.js" />
+    <Content Include="script\modernizr-2.5.3.js" />
+    <None Include="script\_references.js" />
     <Content Include="student.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccordianDemo.aspx.cs">
-      <DependentUpon>AccordianDemo.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AccordianDemo.aspx.designer.cs">
-      <DependentUpon>AccordianDemo.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="student.aspx.cs">
       <DependentUpon>student.aspx</DependentUpon>
