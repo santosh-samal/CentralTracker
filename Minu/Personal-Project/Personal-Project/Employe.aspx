@@ -86,6 +86,7 @@
                         <asp:Button ID="btnupdate" runat="server" Text="Update" OnClick="btnupdate_Click"></asp:Button>
                         <asp:Button ID="btnDelete" runat="server" Text="Delete" OnClick="btnDelete_Click"></asp:Button>
                         <asp:Button ID="btnSearch" runat="server" Text="Search" OnClick="btnSearch_Click"></asp:Button>
+                        
                     </td>
                 </tr>
                  <tr>
@@ -93,7 +94,14 @@
                         <asp:Label ID="lblError" runat="server" Text="" CssClass="error"></asp:Label>
                     </td>
                 </tr>
+                <tr>
+                    <td colspan="2">
+                        <asp:Button ID="Button1" runat="server" Text="Insert" OnClick="Button1_Click" ></asp:Button>
+                        
+                    </td>
+                </tr>
             </table>
+                <asp:GridView ID="GridView1" runat="server"></asp:GridView>
         </center>
         </div>
     </form>

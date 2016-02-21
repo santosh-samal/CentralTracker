@@ -14,6 +14,8 @@ namespace Personal_Project
 {
     public partial class Employe : System.Web.UI.Page
     {
+        
+       
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -21,7 +23,21 @@ namespace Personal_Project
 
 
 
-
+        public void getsqldataadapt(string query)
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["dbConnectionString"].ConnectionString;
+            SqlConnection connect = new SqlConnection(connectionString);
+            connect.Open();
+            SqlDataAdapter da = new SqlDataAdapter(query,connect);
+            
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+            GridView1.DataSource = ds;
+            GridView1.DataBind();
+            Response.Write("retrieve");
+            
+            connect.Close();
+        }
         public void GetSqlCommand(string query)
         {
             string connectionString = ConfigurationManager.ConnectionStrings["dbConnectionString"].ConnectionString;
@@ -77,6 +93,12 @@ namespace Personal_Project
             }
 
             connect.Close();
+        }
+       
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            string RetriveQuery = "select * from Employe";
+            getsqldataadapt(RetriveQuery);
         }
     }
 }
