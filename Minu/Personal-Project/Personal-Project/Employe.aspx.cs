@@ -18,7 +18,8 @@ namespace Personal_Project
        
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            string RetriveQuery = "select * from Employe";
+            getsqldataadapt(RetriveQuery);
         }
 
 
@@ -28,13 +29,12 @@ namespace Personal_Project
             string connectionString = ConfigurationManager.ConnectionStrings["dbConnectionString"].ConnectionString;
             SqlConnection connect = new SqlConnection(connectionString);
             connect.Open();
-            SqlDataAdapter da = new SqlDataAdapter(query,connect);
-            
+            SqlDataAdapter da = new SqlDataAdapter(query,connect);         
             DataSet ds = new DataSet();
             da.Fill(ds);
             GridView1.DataSource = ds;
             GridView1.DataBind();
-            Response.Write("retrieve");
+        
             
             connect.Close();
         }
@@ -52,8 +52,10 @@ namespace Personal_Project
 
         protected void btnInsert_Click(object sender, EventArgs e)
         {
-            string insertQuery = "INSERT INTO [Student].[dbo].[Employe]([Emp_Id],[Emp_Name],[Emp_Addr],[Emp_Gender]) VALUES('" + txtId.Text + "','" + txtName.Text + "','" + txtAddr.Value + "','" + Rdgen.Text + "')";
+            string insertQuery = "INSERT INTO [Student].[dbo].[Employe]([Emp_Id],[Emp_Name],[Emp_Addr],[Emp_Gender]) VALUES('" + txtId.Text + "','" + txtName.Text + "','" + txtAddr.Value + "','" + Rdgen.SelectedItem.Value + "')";
             GetSqlCommand(insertQuery);
+            string RetriveQuery = "select * from Employe";
+            getsqldataadapt(RetriveQuery);
 
         }
 
@@ -97,8 +99,7 @@ namespace Personal_Project
        
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string RetriveQuery = "select * from Employe";
-            getsqldataadapt(RetriveQuery);
+           
         }
     }
 }

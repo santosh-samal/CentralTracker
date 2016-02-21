@@ -74,8 +74,8 @@
                     <td><h3> <b>Employee Gender:</b></h3></td>
                       <td>
                        <asp:RadioButtonList ID="Rdgen" runat="server">
-                       <asp:ListItem> <b>Male</b></asp:ListItem>
-                       <asp:ListItem><b>Female</b></asp:ListItem>     
+                       <asp:ListItem>Male</asp:ListItem>
+                       <asp:ListItem>Female</asp:ListItem>     
                        </asp:RadioButtonList> 
                           </td>        
                     
@@ -96,7 +96,6 @@
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <asp:Button ID="Button1" runat="server" Text="Insert" OnClick="Button1_Click" ></asp:Button>
                         
                     </td>
                 </tr>
