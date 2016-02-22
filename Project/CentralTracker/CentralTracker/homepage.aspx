@@ -2,11 +2,13 @@
 
 <!DOCTYPE html>
 
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
     <title>Home page</title>
-    <script src="Scripts/jquery-1.7.1.intellisense.js"></script>
-    <script src="Scripts/jquery-1.7.1.js"></script>
+    
+    <script src="Scripts/jquery-1.10.2.js"></script>
+
     <script type="text/javascript">
         $(document).ready(function () {
             $("#btnSubmit").click(function () {
@@ -55,7 +57,7 @@
 <body bgcolor="cyan">
 
     <form id="form1" runat="server">
-        </textarea></span></span>
+      
 
         <div>
             <center>
@@ -71,7 +73,7 @@
             
            
                         <td colspan="2">
-                            <input id="Submit1" type="submit" cssclass=" btnSubmit" value="signin" runat="server"  />
+                            <input id="Submit1" type="submit" cssclass=" btnSubmit" value="signin" runat="server"  onserverclick="Submit1_ServerClick"/>
                         </td>
                 </tr>
         </table>
@@ -137,3 +139,5 @@
     </center>
 </body>
 </html>
+
+

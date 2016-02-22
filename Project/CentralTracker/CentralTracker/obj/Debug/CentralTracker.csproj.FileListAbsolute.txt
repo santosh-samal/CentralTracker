@@ -8,3 +8,9 @@ C:\Users\p\Source\Repos\CentralTracker\Project\CentralTracker\CentralTracker\bin
 C:\Users\p\Source\Repos\CentralTracker\Project\CentralTracker\CentralTracker\obj\Debug\CentralTracker.csprojResolveAssemblyReference.cache
 C:\Users\p\Source\Repos\CentralTracker\Project\CentralTracker\CentralTracker\obj\Debug\CentralTracker.dll
 C:\Users\p\Source\Repos\CentralTracker\Project\CentralTracker\CentralTracker\obj\Debug\CentralTracker.pdb
+C:\Users\user\Documents\GitHub\CentralTracker\Project\CentralTracker\CentralTracker\bin\CentralTracker.dll.config
+C:\Users\user\Documents\GitHub\CentralTracker\Project\CentralTracker\CentralTracker\bin\CentralTracker.dll
+C:\Users\user\Documents\GitHub\CentralTracker\Project\CentralTracker\CentralTracker\bin\CentralTracker.pdb
+C:\Users\user\Documents\GitHub\CentralTracker\Project\CentralTracker\CentralTracker\obj\Debug\CentralTracker.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\GitHub\CentralTracker\Project\CentralTracker\CentralTracker\obj\Debug\CentralTracker.dll
+C:\Users\user\Documents\GitHub\CentralTracker\Project\CentralTracker\CentralTracker\obj\Debug\CentralTracker.pdb
