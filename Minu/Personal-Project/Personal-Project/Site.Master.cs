@@ -30,7 +30,7 @@ namespace Personal_Project
                 // Generate a new Anti-XSRF token and save to the cookie
                 _antiXsrfTokenValue = Guid.NewGuid().ToString("N");
                 Page.ViewStateUserKey = _antiXsrfTokenValue;
-
+//test
                 var responseCookie = new HttpCookie(AntiXsrfTokenKey)
                 {
                     HttpOnly = true,
